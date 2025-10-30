@@ -1,0 +1,6 @@
+@media (max-width: 576px) {
+  #pillNav2 .nav-link {
+    font-size: 0.8rem;
+    padding: 6px 12px;
+  }
+}
