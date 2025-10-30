@@ -1,19 +1,23 @@
-import React from 'react'
-import NavigationBar from './components/Navbar'
-import Footer from './components/Footer'
-import MarqueeSection from './components/MarqueSection'
+import React from 'react';
+import NavigationBar from './components/Navbar';
+import Footer from './components/Footer';
+import MarqueSection from './components/MarqueSection';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import './App.css'; 
 
 function App() {
   return (
     <>
+      
       <NavigationBar />
-      <main className="container mt-4">
-        <h1 className="text-center mb-4">Welcome to AICARE React</h1>
-      </main>
-      <MarqueeSection />
+
+    
+      <MarqueSection />
+
+   
       <Footer />
     </>
-  )
+  );
 }
 
-export default App
+export default App;

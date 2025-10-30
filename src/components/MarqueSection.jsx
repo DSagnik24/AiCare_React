@@ -10,7 +10,7 @@ export default function MarqueeSection() {
       <marquee
         behavior=""
         direction="left"
-        scrollAmount="15"
+        scrollamount="15"
         className="fs-6 fs-lg-4"
       >
         <span className="text-danger fw-bolder me-4">
